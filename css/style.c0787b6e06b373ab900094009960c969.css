@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  margin-top: 36px; }
+
+.main-footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #D1C4E9;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold; }
+
+.header {
+  background-color: #ff5722;
+  overflow: hidden;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+.header__promo {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: normal;
+  float: left;
+  font-size: 1.5rem; }
+
+.header__nav {
+  float: right; }
+
+.header__nav-items {
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: calc(1.5 * 1.5); }
+
+.header__nav-item {
+  float: left;
+  padding-right: 20px;
+  letter-spacing: 1px; }
+
+.header__nav-item:last-child {
+  padding-right: 0; }
+
+.header__nav-item-link {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: .8rem;
+  font-weight: normal;
+  text-transform: uppercase; }
+
+.container {
+  width: 100vw;
+  padding: 0 15vw;
+  overflow: hidden; }
+
+.container--centered {
+  text-align: center; }
+
+.container--primary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #673AB7;
+  color: rgba(255, 255, 255, 0.8);
+  height: 50vh; }
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding: 0 15vw;
+  justify-content: center;
+  align-items: center; }
+
+.container-flex--light {
+  background-color: #BDBDBD;
+  color: rgba(0, 0, 0, 0.8); }
+
+.container-flex--dark {
+  background-color: #212121;
+  color: rgba(255, 255, 255, 0.8); }
+
+.container-flex__item {
+  padding: 100px 0;
+  text-align: center; }
+
+.big-text {
+  font-size: 2rem; }
+
+.index-just {
+  background-color: #fff;
+  background-image: url("../media/html-css-js.4384d9811927b44472b06245b8921b9f.jpg");
+  background-clip: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.index-just__three-pillars {
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+  mix-blend-mode: screen; }
+
+/*# sourceMappingURL=style-map.css.e32ab73c6318b2b468b813e18bd8f7d0.map */
