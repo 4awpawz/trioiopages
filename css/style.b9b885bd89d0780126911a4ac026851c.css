@@ -21,6 +21,7 @@ body {
   overflow: hidden;
   width: 100vw;
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0; }
 
@@ -108,4 +109,4 @@ body {
   color: #000;
   mix-blend-mode: screen; }
 
-/*# sourceMappingURL=style-map.css.e32ab73c6318b2b468b813e18bd8f7d0.map */
+/*# sourceMappingURL=style-map.css.b9fd6bf111a72d4ab37bc7bd072a583e.map */
