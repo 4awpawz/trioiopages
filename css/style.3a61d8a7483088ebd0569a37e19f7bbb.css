@@ -137,6 +137,12 @@ body {
   .header__nav-item-link {
     padding: 10px 10px 10px 10px; } }
 
+.prev-page, .next-page {
+  display: inlin-block; }
+
+.prev-page--hidden, .next-page--hidden {
+  display: none; }
+
 .three {
   font-size: 1.5em;
   display: grid;
