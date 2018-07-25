@@ -138,7 +138,9 @@ body {
     padding: 10px 10px 10px 10px; } }
 
 .prev-page, .next-page {
-  display: inlin-block; }
+  display: inlin-block;
+  padding: 10px;
+  color: #6f9798; }
 
 .prev-page--hidden, .next-page--hidden {
   display: none; }
@@ -179,7 +181,8 @@ body {
   margin: 0 auto;
   background-color: #8e24aa;
   color: white;
-  border-radius: 50%; }
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px #8e24aa; }
 
 @media (min-width: 640px) {
   .three {
