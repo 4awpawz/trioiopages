@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome to Trio!</title>
+    <title>Blog - css</title>
     <link href="https://fonts.googleapis.com/css?family=Merriweather:900|Sacramento&amp;text=Trio|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="/trioiopages/css/style.a10b922c2cfc242dfecae4d7e0d5dc44.css">
@@ -29,7 +29,7 @@
             <input class="hamburger-checkbox" type="checkbox" id="hamburger-checkbox">
             <nav class="header__nav">
                 <ul class="header__nav-items">
-                    <li class="header__nav-item header__nav-item--active">
+                    <li class="header__nav-item">
                         <a class="header__nav-item-link" href="/trioiopages">
                         <i class="fas fa-home header__nav-item-icon"></i>Home</a>
                     </li>
@@ -37,7 +37,7 @@
                         <a class="header__nav-item-link" href="/trioiopages/docs">
                         <i class="fas fa-file header__nav-item-icon"></i>Docs</a>
                     </li>
-                    <li class="header__nav-item">
+                    <li class="header__nav-item header__nav-item--active">
                         <a id="trio-blog-link" class="header__nav-item-link" href="/trioiopages/trioblog">
                         <i class="fas fa-columns header__nav-item-icon"></i>Blog</a>
                     </li>
@@ -49,17 +49,25 @@
             </nav>
         </div>
     </header>
-    <div class="banner">
-        <div class="three">
-            <div class="three__html">HTML</div>
-            <div class="three__css">CSS</div>
-            <div class="three__tri"><i class="three__3">3</i></div>
-            <div class="three__js">JAVASCRIPT</div>
+    <main class="container blog">
+        <div class="tag-container">
+            <h1 class="blog__title">Blog</h1>
+            <div class="tag">css</div>
         </div>
-    </div>
-
-    <main class="container">
-        <p class="three__statement">Everything you always wanted in a static site generator... but less.</p>
+        <ul class="blog__articles">
+            <li><a href="/trioiopages/trioblog/web development/2018/08/01/skyisthelimit/">The Sky&apos;s The Limit</a></li>
+            <li><a href="/trioiopages/trioblog/web development/trio/2018/07/14/thepowerofthree/">The Power of Three</a></li>
+        </ul>
+        <div class="blog__metadata">
+            <div class="blog__tags">
+                <h2 class="blog__tags-title">Tags</h2>
+                <ul class="blog__tags-list">
+                    <li class="blog__tags-list-item"><a href="/trioiopages/trioblog/tag/css">css</a></li>
+                    <li class="blog__tags-list-item"><a href="/trioiopages/trioblog/tag/html">html</a></li>
+                    <li class="blog__tags-list-item"><a href="/trioiopages/trioblog/tag/javascript">javascript</a></li>
+                </ul>
+            </div>
+        </div>
     </main>
     <footer class="footer">
         <div class="container">

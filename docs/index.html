@@ -8,46 +8,56 @@
     <title>Docs</title>
     <link href="https://fonts.googleapis.com/css?family=Merriweather:900|Sacramento&amp;text=Trio|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="/trioiopages/css/style.4700dc7483eb434b937d604b0eaaad50.css">
+    <link rel="stylesheet" href="/trioiopages/css/style.a10b922c2cfc242dfecae4d7e0d5dc44.css">
 </head>
 
 <body>
-    <header class="header-container container">
-        <div class="header__promo">
-            <div class="header__promo-text">Trio</div>
+    <header class="header-container header-container--fixed">
+        <div class="container">
+            <div class="header__promo">
+                <div class="header__promo-text">Trio</div>
+            </div>
+            <label class="hamburger-helper" for="hamburger-checkbox">
+            <div class="header-hamburger">
+                <div class="hamburger__bun">
+                    <div class="hamburger__patty"></div>
+                    <div class="hamburger__patty"></div>
+                    <div class="hamburger__patty"></div>
+                </div>
+            </div>
+        </label>
+            <input class="hamburger-checkbox" type="checkbox" id="hamburger-checkbox">
+            <nav class="header__nav">
+                <ul class="header__nav-items">
+                    <li class="header__nav-item">
+                        <a class="header__nav-item-link" href="/trioiopages">
+                        <i class="fas fa-home header__nav-item-icon"></i>Home</a>
+                    </li>
+                    <li class="header__nav-item header__nav-item--active">
+                        <a class="header__nav-item-link" href="/trioiopages/docs">
+                        <i class="fas fa-file header__nav-item-icon"></i>Docs</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a id="trio-blog-link" class="header__nav-item-link" href="/trioiopages/trioblog">
+                        <i class="fas fa-columns header__nav-item-icon"></i>Blog</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-item-link" href="/trioiopages/about">
+                        <i class="fas fa-info header__nav-item-icon"></i>About</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <label class="hamburger-helper" for="hamburger-checkbox">
-        <div class="header-mobile-hamburger hamburger hamburger--right">
-            <div class="hamburger__patty"></div>
-            <div class="hamburger__patty"></div>
-            <div class="hamburger__patty"></div>
-        </div>
-    </label>
-        <input class="hamburger-checkbox" type="checkbox" id="hamburger-checkbox">
-        <nav class="header__nav">
-            <ul class="header__nav-items">
-                <li class="header__nav-item">
-                    <a class="header__nav-item-link" href="/trioiopages">
-                    <i class="fas fa-home header__nav-item-icon"></i>Home</a>
-                </li>
-                <li class="header__nav-item header__nav-item--active">
-                    <a class="header__nav-item-link" href="/trioiopages/docs">
-                    <i class="fas fa-file header__nav-item-icon"></i>Docs</a>
-                </li>
-                <li class="header__nav-item">
-                    <a class="header__nav-item-link" href="/trioiopages/blog">
-                    <i class="fas fa-columns header__nav-item-icon"></i>Blog</a>
-                </li>
-                <li class="header__nav-item">
-                    <a class="header__nav-item-link" href="/trioiopages/about">
-                    <i class="fas fa-info header__nav-item-icon"></i>About</a>
-                </li>
-            </ul>
-        </nav>
     </header>
     <main class="container">
-        <h1>Docs</h1>
+        <h1 id="docs">Docs</h1>
+        <p>Trio documentation can be found <a href="https://github.com/4awpawz/trio">here</a>.</p>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__copyright">&#xA9; 2018, Jeffrey Schwartz.</p>
+        </div>
+    </footer>
 
 </body>
 
